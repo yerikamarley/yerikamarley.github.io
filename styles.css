@@ -1,0 +1,62 @@
+/* CSS modificado para centrar la sección y las imágenes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(10, 0, 0, 0); /* Fondo amarillo */
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 234, 0); /* Cambiamos la parte naranja a roja */
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo específico para los botones de cambio de imagen */
+button.change-img-button {
+    background-color: red; /* Fondo rojo */
+    color: white; /* Texto blanco */
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.change-img-button:hover {
+    background-color: black; /* Fondo negro al pasar el cursor */
+    color: yellow; /* Texto amarillo al pasar el cursor */
+}
+
+/* Centrar la sección y las imágenes */
+section {
+    text-align: center;
+}
+
+.slider {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* ... El resto de tu código CSS ... */
